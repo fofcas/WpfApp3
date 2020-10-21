@@ -1,0 +1,19 @@
+﻿<Window x:Class="WpfApp3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp3"
+        mc:Ignorable="d"
+        Title="Вычесление знака зодиака" Height="370.588" Width="416.706" Background="DarkGreen">
+    <Grid>
+
+        <TextBox x:Name ="d1" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="68,100,0,0"/>
+        <TextBox x:Name ="d2" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" Margin="235,100,0,0"/>
+        <Button x:Name="ok" Content="OK" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="169,151,0,0" Click="ok_Click"/>
+        <TextBlock x:Name="v" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Margin="107,215,0,0" Height="52" Width="235"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="ВВЕДИТЕ МЕСЯЦ" VerticalAlignment="Top" Height="47" Width="120" Margin="247,65,0,0" RenderTransformOrigin="0.47,0.882"/>
+        <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="ВВЕДИТЕ ДЕНЬ" VerticalAlignment="Top" Height="46" Width="85" Margin="68,65,0,0"/>
+
+    </Grid>
+</Window>
